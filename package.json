@@ -1,0 +1,17 @@
+{
+  "name": "@utrecht/utrecht.nl",
+  "version": "1.0.0",
+  "description": "Website utrecht.nl",
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "private": true,
+  "scripts": {
+    "update-dependencies": "npm-check-updates --deep --dep prod --target latest --upgrade && npm install"
+  },
+  "dependencies": {
+    "@utrecht/web-component-library-stencil": "1.0.0-alpha.374"
+  },
+  "devDependencies": {
+    "npm-check-updates": "16.4.1"
+  }
+}
